@@ -14,6 +14,13 @@ const Hero = () => {
           <p className="md:text-5xl sm:text-4xl text-xl font-bold">
            Practice coding for
           </p>
+          <Typed
+            className="md:text-5xl sm:text-4xl text-xl font-bold pl-2"
+            strings={["jobs", "money", "fun"]}
+            typeSpeed={120}
+            backSpeed={140}
+            loop
+          />
         </div>
       </div>
     </div>
